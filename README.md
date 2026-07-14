@@ -4,7 +4,7 @@
 
 <br>
 
-<a href="https://github.com/zeeinz">
+<a href="https://github.com/zeeinz-ux">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&width=500&lines=%F0%9F%95%B7%EF%B8%8F+Spiderman+Protocol+Active...;Building+the+future%2C+one+commit+at+a+time;Full-Stack+Developer+based+in+JKT;Turning+coffee+%E2%98%95+into+code" alt="Typing SVG" />
 </a>
 
@@ -17,8 +17,8 @@
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=zeeinz&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zeeinz&hide_border=true&background=0d1117&ring=6C63FF&fire=00D9FF&currStreakLabel=6C63FF"/>
+<img src="https://github-readme-stats.vercel.app/api?username=zeeinz-ux&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zeeinz-ux&hide_border=true&background=0d1117&ring=6C63FF&fire=00D9FF&currStreakLabel=6C63FF"/>
 
 <br><br>
 
