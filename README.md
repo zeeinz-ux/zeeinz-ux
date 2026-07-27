@@ -17,17 +17,18 @@
 
 <br><br>
 
+<!-- Profile Views -->
+<img src="https://komarev.com/ghpvc/?username=zeeinz-ux&color=00E5CC&style=for-the-badge&label=PROFILE+VIEWS"/>
+
 </div>
 
-<!-- ═══════════════════════════════════════════════ -->
-<!-- ═══════════════ TECH STACK ═══════════════ -->
-<!-- ═══════════════════════════════════════════════ -->
+<br>
+
+---
+
+### ⚡ TECH STACK ⚡
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=radial&color=0:040D21,50:0A1628,100:040D21&height=100&section=separator&text=TECH+STACK&fontSize=28&fontColor=00E5CC&animation=blinking"/>
-
-<br><br>
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -44,15 +45,11 @@
 
 <br>
 
-<!-- ═══════════════════════════════════════════════ -->
-<!-- ═══════════════ STATS ═══════════════ -->
-<!-- ═══════════════════════════════════════════════ -->
+---
+
+### 📊 STATS 📊
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=radial&color=0:040D21,50:0A1628,100:040D21&height=100&section=separator&text=STATS&fontSize=28&fontColor=FF6B6B&animation=blinking"/>
-
-<br><br>
 
 <img src="https://github-readme-stats.vercel.app/api?username=zeeinz-ux&show_icons=true&count_private=true&hide_border=true&title_color=00E5CC&icon_color=FF6B6B&text_color=E8F4F8&bg_color=0D1117" width="49%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=zeeinz-ux&hide_border=true&background=0D1117&ring=00E5CC&fire=FF6B6B&currStreakLabel=00E5CC&sideLabels=E8F4F8" width="49%"/>
@@ -65,15 +62,11 @@
 
 <br>
 
-<!-- ═══════════════════════════════════════════════ -->
-<!-- ═══════════════ ABOUT ═══════════════ -->
-<!-- ═══════════════════════════════════════════════ -->
+---
+
+### 🐚 ABOUT 🐚
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=radial&color=0:040D21,50:0A1628,100:040D21&height=100&section=separator&text=ABOUT&fontSize=28&fontColor=00E5CC&animation=blinking"/>
-
-<br><br>
 
 <table>
 <tr>
@@ -120,31 +113,23 @@ ask_me_about:
 
 <br>
 
-<!-- ═══════════════════════════════════════════════ -->
-<!-- ═══════════════ TROPHIES ═══════════════ -->
-<!-- ═══════════════════════════════════════════════ -->
+---
+
+### 🏆 ACHIEVEMENTS 🏆
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=radial&color=0:040D21,50:0A1628,100:040D21&height=100&section=separator&text=ACHIEVEMENTS&fontSize=28&fontColor=FF6B6B&animation=blinking"/>
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=zeeinz-ux&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=15&row=1" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=zeeinz-ux&theme=cherry&no-frame=true&no-bg=true&column=7&margin-w=15&row=1" width="100%"/>
 
 </div>
 
 <br>
 
-<!-- ═══════════════════════════════════════════════ -->
-<!-- ═══════════════ ACTIVITY ═══════════════ -->
-<!-- ═══════════════════════════════════════════════ -->
+---
+
+### 📈 ACTIVITY 📈
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=radial&color=0:040D21,50:0A1628,100:040D21&height=100&section=separator&text=ACTIVITY&fontSize=28&fontColor=00E5CC&animation=blinking"/>
-
-<br><br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=zeeinz-ux&bg_color=0D1117&color=00E5CC&line=FF6B6B&point=E8F4F8&area=true&area_color=00E5CC&hide_border=true" width="100%"/>
 
@@ -152,15 +137,11 @@ ask_me_about:
 
 <br>
 
-<!-- ═══════════════════════════════════════════════ -->
-<!-- ═══════════════ CONNECT ═══════════════ -->
-<!-- ═══════════════════════════════════════════════ -->
+---
+
+### 🔗 CONNECT 🔗
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=radial&color=0:040D21,50:0A1628,100:040D21&height=100&section=separator&text=CONNECT&fontSize=28&fontColor=00E5CC&animation=blinking"/>
-
-<br><br>
 
 <a href="https://linkedin.com/in/zeeinz-ux" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -179,20 +160,11 @@ ask_me_about:
 
 <br>
 
-<!-- ═══════════════════════════════════════════════ -->
-<!-- ═══════════════ FOOTER ═══════════════ -->
-<!-- ═══════════════════════════════════════════════ -->
+---
 
-<div align="center">
-
+<!-- Deep Sea Abyss Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:040D21,30:FF6B6B,70:00E5CC,100:040D21&height=120&section=footer&animation=fadeIn"/>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=zeeinz-ux&color=00E5CC&style=for-the-badge&label=PROFILE+VIEWS"/>
-
-<br><br>
-
-![Snake animation](https://raw.githubusercontent.com/zeeinz-ux/zeeinz-ux/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-
-</div>
+> *"In the depth of code, we find our truest form."*
