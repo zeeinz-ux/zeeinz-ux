@@ -51,12 +51,14 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=zeeinz-ux&show_icons=true&count_private=true&hide_border=true&title_color=00E5CC&icon_color=FF6B6B&text_color=E8F4F8&bg_color=0D1117" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zeeinz-ux&hide_border=true&background=0D1117&ring=00E5CC&fire=FF6B6B&currStreakLabel=00E5CC&sideLabels=E8F4F8" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zeeinz-ux&hide_border=true&background=0D1117&ring=00E5CC&fire=FF6B6B&currStreakLabel=00E5CC&sideLabels=E8F4F8"/>
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeeinz-ux&hide_border=true&title_color=00E5CC&text_color=E8F4F8&bg_color=0D1117&langs_count=8&layout=compact" width="400"/>
+<img src="https://img.shields.io/github/followers/zeeinz-ux?color=00E5CC&label=Followers&style=for-the-badge"/>
+<img src="https://img.shields.io/github/stars/zeeinz-ux?color=FF6B6B&label=Stars&style=for-the-badge"/>
+<img src="https://img.shields.io/github/forks/zeeinz-ux?color=00E5CC&label=Forks&style=for-the-badge"/>
+<img src="https://img.shields.io/github/repos/zeeinz-ux?color=FF6B6B&label=Repos&style=for-the-badge"/>
 
 </div>
 
@@ -108,18 +110,6 @@ ask_me_about:
 </td>
 </tr>
 </table>
-
-</div>
-
-<br>
-
----
-
-### 🏆 ACHIEVEMENTS 🏆
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=zeeinz-ux&theme=cherry&no-frame=true&no-bg=true&column=7&margin-w=15&row=1" width="100%"/>
 
 </div>
 
