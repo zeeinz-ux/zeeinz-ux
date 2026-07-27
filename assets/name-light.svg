@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
   <defs>
-    <linearGradient id="auroraGradL" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7C3AED"/><stop offset="33%" style="stop-color:#2563EB"/>
-      <stop offset="66%" style="stop-color:#059669"/><stop offset="100%" style="stop-color:#7C3AED"/>
+    <linearGradient id="nameGradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/><stop offset="100%" style="stop-color:#1E293B"/>
     </linearGradient>
     <filter id="nameGlowL"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
@@ -10,7 +9,7 @@
     @keyframes r3d{0%{transform:perspective(600px) rotateY(-12deg) rotateX(3deg)}33%{transform:perspective(600px) rotateY(8deg) rotateX(-2deg)}66%{transform:perspective(600px) rotateY(-5deg) rotateX(4deg)}100%{transform:perspective(600px) rotateY(-12deg) rotateX(3deg)}}
     @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
     @keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
-    .nt{font-family:'Segoe UI','Arial Black',sans-serif;font-size:76px;font-weight:900;letter-spacing:10px;fill:url(#auroraGradL);animation:r3d 10s ease-in-out infinite,fl 5s ease-in-out infinite;transform-origin:center}
+    .nt{font-family:'Segoe UI','Arial Black',sans-serif;font-size:76px;font-weight:900;letter-spacing:10px;fill:#0F172A;animation:r3d 10s ease-in-out infinite,fl 5s ease-in-out infinite;transform-origin:center}
     .st{font-family:'Segoe UI',sans-serif;font-size:15px;fill:#475569;letter-spacing:4px;text-transform:uppercase}
     .ss{animation:tw 2s ease-in-out infinite}.smd{animation:tw 3s ease-in-out infinite}.slg{animation:tw 4s ease-in-out infinite}
   </style>

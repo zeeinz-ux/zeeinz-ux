@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
   <defs>
-    <linearGradient id="auroraGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#A855F7"/><stop offset="33%" style="stop-color:#60A5FA"/>
-      <stop offset="66%" style="stop-color:#34D399"/><stop offset="100%" style="stop-color:#A855F7"/>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F1F5F9"/><stop offset="100%" style="stop-color:#CBD5E1"/>
     </linearGradient>
     <filter id="nameGlow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <filter id="blur2"><feGaussianBlur stdDeviation="2"/></filter>
@@ -13,11 +12,11 @@
   <style>
     @keyframes r3d{0%{transform:perspective(600px) rotateY(-12deg) rotateX(3deg)}33%{transform:perspective(600px) rotateY(8deg) rotateX(-2deg)}66%{transform:perspective(600px) rotateY(-5deg) rotateX(4deg)}100%{transform:perspective(600px) rotateY(-12deg) rotateX(3deg)}}
     @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
-    @keyframes np{0%,100%{filter:url(#nameGlow) drop-shadow(0 0 8px #A855F7)}50%{filter:url(#nameGlow) drop-shadow(0 0 20px #A855F7) drop-shadow(0 0 35px #60A5FA)}}
+    @keyframes np{0%,100%{filter:url(#nameGlow) drop-shadow(0 0 6px rgba(241,245,249,.3))}50%{filter:url(#nameGlow) drop-shadow(0 0 15px rgba(241,245,249,.5))}}
     @keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
     @keyframes sh{0%{transform:translateX(-50px) translateY(20px);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(850px) translateY(-80px);opacity:0}}
     @keyframes ob{0%{transform:rotate(0deg) translateX(35px) rotate(0deg)}100%{transform:rotate(360deg) translateX(35px) rotate(-360deg)}}
-    .nt{font-family:'Segoe UI','Arial Black',sans-serif;font-size:76px;font-weight:900;letter-spacing:10px;fill:url(#auroraGrad);animation:r3d 10s ease-in-out infinite,fl 5s ease-in-out infinite,np 4s ease-in-out infinite;transform-origin:center}
+    .nt{font-family:'Segoe UI','Arial Black',sans-serif;font-size:76px;font-weight:900;letter-spacing:10px;fill:#F1F5F9;animation:r3d 10s ease-in-out infinite,fl 5s ease-in-out infinite,np 4s ease-in-out infinite;transform-origin:center}
     .st{font-family:'Segoe UI',sans-serif;font-size:15px;fill:#94A3B8;letter-spacing:4px;text-transform:uppercase}
     .ss{animation:tw 2s ease-in-out infinite}.smd{animation:tw 3s ease-in-out infinite}.slg{animation:tw 4s ease-in-out infinite}
     .sh1{animation:sh 6s linear infinite}.sh2{animation:sh 8s linear infinite 3s}
