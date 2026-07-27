@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#040D21;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#00E5CC;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#040D21;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00E5CC;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:0.8" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <style>
+    @keyframes rotate3d {
+      0% { transform: perspective(500px) rotateY(-15deg) translateX(0); }
+      50% { transform: perspective(500px) rotateY(15deg) translateX(10px); }
+      100% { transform: perspective(500px) rotateY(-15deg) translateX(0); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    @keyframes wave {
+      0% { d: path("M0,150 Q200,120 400,150 T800,150"); }
+      50% { d: path("M0,150 Q200,180 400,150 T800,150"); }
+      100% { d: path("M0,150 Q200,120 400,150 T800,150"); }
+    }
+    .name-3d {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 72px;
+      font-weight: 900;
+      fill: url(#grad1);
+      filter: url(#glow);
+      animation: rotate3d 6s ease-in-out infinite, float 3s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .subtitle {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 20px;
+      fill: #E8F4F8;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    .particle {
+      fill: #00E5CC;
+      animation: float 4s ease-in-out infinite;
+    }
+    .particle2 {
+      fill: #FF6B6B;
+      animation: float 3s ease-in-out infinite 0.5s;
+    }
+    .wave-path {
+      fill: none;
+      stroke: url(#grad2);
+      stroke-width: 2;
+      animation: wave 4s ease-in-out infinite;
+    }
+    .line-3d {
+      stroke: #00E5CC;
+      stroke-width: 1;
+      opacity: 0.3;
+      animation: pulse 3s ease-in-out infinite;
+    }
+  </style>
+  
+  <!-- Background particles -->
+  <circle class="particle" cx="50" cy="30" r="2"/>
+  <circle class="particle2" cx="150" cy="60" r="1.5"/>
+  <circle class="particle" cx="250" cy="20" r="2.5"/>
+  <circle class="particle2" cx="350" cy="70" r="1"/>
+  <circle class="particle" cx="450" cy="40" r="2"/>
+  <circle class="particle2" cx="550" cy="55" r="1.5"/>
+  <circle class="particle" cx="650" cy="25" r="2"/>
+  <circle class="particle2" cx="750" cy="65" r="1"/>
+  <circle class="particle" cx="100" cy="180" r="1.5"/>
+  <circle class="particle2" cx="300" cy="170" r="2"/>
+  <circle class="particle" cx="500" cy="185" r="1"/>
+  <circle class="particle2" cx="700" cy="175" r="2.5"/>
+  
+  <!-- 3D perspective lines -->
+  <line class="line-3d" x1="100" y1="100" x2="200" y2="90"/>
+  <line class="line-3d" x1="600" y1="90" x2="700" y2="100"/>
+  <line class="line-3d" x1="150" y1="120" x2="250" y2="115"/>
+  <line class="line-3d" x1="550" y1="115" x2="650" y2="120"/>
+  
+  <!-- Main 3D text -->
+  <text class="name-3d" x="400" y="110" text-anchor="middle">Zeeinz</text>
+  
+  <!-- Subtitle -->
+  <text class="subtitle" x="400" y="145" text-anchor="middle">Deep Sea Developer | Jakarta, ID</text>
+  
+  <!-- Animated wave at bottom -->
+  <path class="wave-path" d="M0,160 Q100,140 200,160 T400,160 T600,160 T800,160">
+    <animate attributeName="d" 
+      values="M0,160 Q100,140 200,160 T400,160 T600,160 T800,160;
+              M0,160 Q100,180 200,160 T400,160 T600,160 T800,160;
+              M0,160 Q100,140 200,160 T400,160 T600,160 T800,160"
+      dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path class="wave-path" d="M0,170 Q100,150 200,170 T400,170 T600,170 T800,170" style="opacity:0.5">
+    <animate attributeName="d" 
+      values="M0,170 Q100,150 200,170 T400,170 T600,170 T800,170;
+              M0,170 Q100,190 200,170 T400,170 T600,170 T800,170;
+              M0,170 Q100,150 200,170 T400,170 T600,170 T800,170"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+</svg>

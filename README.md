@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Deep Sea Abyss Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040D21,30:00E5CC,70:FF6B6B,100:040D21&height=280&section=header&text=Zeeinz&fontSize=80&fontColor=E8F4F8&animation=fadeIn&fontAlignY=35&desc=Deep+Sea+Developer+%7C+Jakarta+ID&descAlignY=55&descSize=22&descColor=00E5CC"/>
+<!-- 3D Animated Name -->
+<img src="assets/name-3d.svg" width="800"/>
 
 <br><br>
 
@@ -26,9 +26,19 @@
 
 ---
 
+<!-- Cinematic Particles Divider -->
+<img src="assets/particles.svg" width="800"/>
+
+<br>
+
 ### ⚡ TECH STACK ⚡
 
 <div align="center">
+
+<!-- 3D Tech Network Animation -->
+<img src="assets/tech-network.svg" width="800"/>
+
+<br><br>
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -46,6 +56,11 @@
 <br>
 
 ---
+
+<!-- Particles Divider -->
+<img src="assets/particles.svg" width="800"/>
+
+<br>
 
 ### 📊 STATS 📊
 
@@ -65,6 +80,11 @@
 <br>
 
 ---
+
+<!-- Particles Divider -->
+<img src="assets/particles.svg" width="800"/>
+
+<br>
 
 ### 🐚 ABOUT 🐚
 
@@ -117,6 +137,11 @@ ask_me_about:
 
 ---
 
+<!-- Particles Divider -->
+<img src="assets/particles.svg" width="800"/>
+
+<br>
+
 ### 📈 ACTIVITY 📈
 
 <div align="center">
@@ -128,6 +153,11 @@ ask_me_about:
 <br>
 
 ---
+
+<!-- Particles Divider -->
+<img src="assets/particles.svg" width="800"/>
+
+<br>
 
 ### 🔗 CONNECT 🔗
 
