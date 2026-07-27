@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Deep Sea Abyss Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040D21,30:00E5CC,70:FF6B6B,100:040D21&height=280&section=header&text=Z E E I N Z&fontSize=80&fontColor=E8F4F8&animation=fadeIn&fontAlignY=35&desc=Deep%20Sea%20Developer%20%7C%20Jakarta%2C%20ID&descAlignY=55&descSize=22&descColor=00E5CC"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040D21,30:00E5CC,70:FF6B6B,100:040D21&height=280&section=header&text=Zeeinz&fontSize=80&fontColor=E8F4F8&animation=fadeIn&fontAlignY=35&desc=Deep+Sea+Developer+%7C+Jakarta+ID&descAlignY=55&descSize=22&descColor=00E5CC"/>
 
 <br><br>
 
@@ -164,7 +164,7 @@
 </style>
 
 <!-- Deep Sea Abyss Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040D21,30:FF6B6B,70:00E5CC,100:040D21&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040D21,30:FF6B6B,70:00E5CC,100:040D21&height=120&section=footer&animation=fadeIn"/>
 
 <br>
 
