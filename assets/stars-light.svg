@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="100" viewBox="0 0 800 100">
+  <style>
+    @keyframes tw{0%,100%{opacity:.3}50%{opacity:.9}}
+    @keyframes dr{0%{transform:translate(0,0)}50%{transform:translate(2px,-1px)}100%{transform:translate(0,0)}}
+    .sf{animation:tw 3s ease-in-out infinite}.sm{animation:tw 4s ease-in-out infinite}.sn{animation:tw 2.5s ease-in-out infinite}
+    .dr{animation:dr 6s ease-in-out infinite}
+  </style>
+  <rect width="800" height="100" fill="#F0EBF8"/>
+
+  <!-- Stars (dark on light) -->
+  <circle class="sf" cx="30" cy="18" r=".8" fill="#6D28D9" opacity=".3" style="animation-delay:.1s"/>
+  <circle class="sf" cx="80" cy="40" r=".6" fill="#4338CA" opacity=".25" style="animation-delay:.5s"/>
+  <circle class="sf" cx="130" cy="14" r=".9" fill="#6D28D9" opacity=".35" style="animation-delay:.9s"/>
+  <circle class="sf" cx="180" cy="45" r=".5" fill="#4338CA" opacity=".25" style="animation-delay:1.3s"/>
+  <circle class="sf" cx="230" cy="20" r=".8" fill="#6D28D9" opacity=".3" style="animation-delay:1.7s"/>
+  <circle class="sf" cx="280" cy="50" r=".6" fill="#4338CA" opacity=".25" style="animation-delay:2.1s"/>
+  <circle class="sf" cx="330" cy="12" r=".9" fill="#6D28D9" opacity=".35" style="animation-delay:2.5s"/>
+  <circle class="sf" cx="380" cy="38" r=".5" fill="#4338CA" opacity=".25" style="animation-delay:2.9s"/>
+  <circle class="sf" cx="430" cy="22" r=".8" fill="#6D28D9" opacity=".3" style="animation-delay:3.3s"/>
+  <circle class="sf" cx="480" cy="48" r=".6" fill="#4338CA" opacity=".25" style="animation-delay:.3s"/>
+  <circle class="sf" cx="530" cy="15" r=".9" fill="#6D28D9" opacity=".35" style="animation-delay:.7s"/>
+  <circle class="sf" cx="580" cy="42" r=".5" fill="#4338CA" opacity=".25" style="animation-delay:1.1s"/>
+  <circle class="sf" cx="630" cy="18" r=".8" fill="#6D28D9" opacity=".3" style="animation-delay:1.5s"/>
+  <circle class="sf" cx="680" cy="45" r=".6" fill="#4338CA" opacity=".25" style="animation-delay:1.9s"/>
+  <circle class="sf" cx="730" cy="10" r=".9" fill="#6D28D9" opacity=".35" style="animation-delay:2.3s"/>
+  <circle class="sf" cx="780" cy="35" r=".5" fill="#4338CA" opacity=".25" style="animation-delay:2.7s"/>
+
+  <circle class="sm dr" cx="120" cy="32" r="1.5" fill="#6D28D9" opacity=".45" style="animation-delay:.4s"/>
+  <circle class="sm dr" cx="350" cy="52" r="1.2" fill="#4338CA" opacity=".4" style="animation-delay:1.4s"/>
+  <circle class="sm dr" cx="550" cy="28" r="1.6" fill="#1E1B4B" opacity=".45" style="animation-delay:2.4s"/>
+  <circle class="sm dr" cx="720" cy="48" r="1.3" fill="#6D28D9" opacity=".4" style="animation-delay:3.4s"/>
+
+  <g class="sn dr" style="animation-delay:.6s"><circle cx="250" cy="38" r="2.8" fill="#1E1B4B" opacity=".5"/><circle cx="250" cy="38" r="9" fill="#1E1B4B" opacity=".08"/></g>
+  <g class="sn dr" style="animation-delay:2s"><circle cx="550" cy="42" r="3" fill="#1E1B4B" opacity=".45"/><circle cx="550" cy="42" r="10" fill="#1E1B4B" opacity=".08"/></g>
+</svg>

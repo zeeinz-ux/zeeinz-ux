@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <defs>
+    <linearGradient id="auroraGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED"/><stop offset="33%" style="stop-color:#2563EB"/>
+      <stop offset="66%" style="stop-color:#059669"/><stop offset="100%" style="stop-color:#7C3AED"/>
+    </linearGradient>
+    <filter id="nameGlowL"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    @keyframes r3d{0%{transform:perspective(600px) rotateY(-12deg) rotateX(3deg)}33%{transform:perspective(600px) rotateY(8deg) rotateX(-2deg)}66%{transform:perspective(600px) rotateY(-5deg) rotateX(4deg)}100%{transform:perspective(600px) rotateY(-12deg) rotateX(3deg)}}
+    @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    @keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
+    .nt{font-family:'Segoe UI','Arial Black',sans-serif;font-size:76px;font-weight:900;letter-spacing:10px;fill:url(#auroraGradL);animation:r3d 10s ease-in-out infinite,fl 5s ease-in-out infinite;transform-origin:center}
+    .st{font-family:'Segoe UI',sans-serif;font-size:15px;fill:#475569;letter-spacing:4px;text-transform:uppercase}
+    .ss{animation:tw 2s ease-in-out infinite}.smd{animation:tw 3s ease-in-out infinite}.slg{animation:tw 4s ease-in-out infinite}
+  </style>
+
+  <rect width="800" height="220" fill="#F0EBF8"/>
+  <ellipse cx="200" cy="80" rx="180" ry="60" fill="#C4B5FD" opacity=".2" filter="url(#nameGlowL)"/>
+  <ellipse cx="600" cy="100" rx="200" ry="70" fill="#C4B5FD" opacity=".15" filter="url(#nameGlowL)"/>
+
+  <!-- Stars (dark on light) -->
+  <circle class="ss" cx="45" cy="22" r="1" fill="#6D28D9" opacity=".4" style="animation-delay:.1s"/>
+  <circle class="ss" cx="130" cy="48" r=".8" fill="#4338CA" opacity=".35" style="animation-delay:.5s"/>
+  <circle class="ss" cx="215" cy="28" r="1.1" fill="#6D28D9" opacity=".4" style="animation-delay:.9s"/>
+  <circle class="ss" cx="295" cy="52" r=".7" fill="#4338CA" opacity=".3" style="animation-delay:1.3s"/>
+  <circle class="ss" cx="375" cy="32" r="1" fill="#6D28D9" opacity=".45" style="animation-delay:1.7s"/>
+  <circle class="ss" cx="465" cy="42" r=".8" fill="#4338CA" opacity=".35" style="animation-delay:2.1s"/>
+  <circle class="ss" cx="545" cy="25" r="1.1" fill="#6D28D9" opacity=".4" style="animation-delay:2.5s"/>
+  <circle class="ss" cx="625" cy="48" r=".7" fill="#4338CA" opacity=".3" style="animation-delay:2.9s"/>
+  <circle class="ss" cx="705" cy="35" r="1" fill="#6D28D9" opacity=".45" style="animation-delay:3.3s"/>
+  <circle class="ss" cx="775" cy="45" r=".8" fill="#4338CA" opacity=".35" style="animation-delay:.3s"/>
+
+  <circle class="smd" cx="90" cy="68" r="1.8" fill="#6D28D9" opacity=".5" style="animation-delay:.2s"/>
+  <circle class="smd" cx="260" cy="85" r="1.5" fill="#4338CA" opacity=".45" style="animation-delay:1s"/>
+  <circle class="smd" cx="420" cy="58" r="2" fill="#1E1B4B" opacity=".5" style="animation-delay:1.8s"/>
+  <circle class="smd" cx="580" cy="72" r="1.6" fill="#6D28D9" opacity=".45" style="animation-delay:2.6s"/>
+  <circle class="smd" cx="720" cy="62" r="1.4" fill="#4338CA" opacity=".4" style="animation-delay:.6s"/>
+
+  <g class="slg" style="animation-delay:.4s"><circle cx="140" cy="38" r="4" fill="#6D28D9" opacity=".5"/></g>
+  <g class="slg" style="animation-delay:1.6s"><circle cx="400" cy="30" r="5" fill="#4338CA" opacity=".45"/></g>
+  <g class="slg" style="animation-delay:2.8s"><circle cx="660" cy="42" r="4.5" fill="#1E1B4B" opacity=".4"/></g>
+
+  <text class="nt" x="400" y="100" text-anchor="middle">ZEEINZ</text>
+  <text class="st" x="400" y="135" text-anchor="middle">Full-Stack Developer  •  Jakarta, Indonesia</text>
+
+  <!-- Aurora bottom (light mode) -->
+  <path fill="#8B5CF6" opacity=".1">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M0,190 C100,170 200,200 400,185 C600,170 700,200 800,190 L800,220 L0,220 Z;M0,185 C100,200 200,170 400,190 C600,200 700,170 800,185 L800,220 L0,220 Z;M0,190 C100,170 200,200 400,185 C600,170 700,200 800,190 L800,220 L0,220 Z"/>
+  </path>
+  <path fill="#3B82F6" opacity=".06">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,195 C120,175 220,205 400,190 C580,175 680,205 800,195 L800,220 L0,220 Z;M0,190 C120,205 220,175 400,195 C580,205 680,175 800,190 L800,220 L0,220 Z;M0,195 C120,175 220,205 400,190 C580,175 680,205 800,195 L800,220 L0,220 Z"/>
+  </path>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="aurGrad1L" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0"/>
+      <stop offset="40%" style="stop-color:#8B5CF6;stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:0.2"/>
+    </linearGradient>
+    <linearGradient id="aurGrad2L" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0"/>
+      <stop offset="40%" style="stop-color:#3B82F6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#60A5FA;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="aurGrad3L" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:0"/>
+      <stop offset="40%" style="stop-color:#10B981;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#34D399;stop-opacity:0.12"/>
+    </linearGradient>
+    <filter id="aurBlur1"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="aurBlur2"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="aurBlur3"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="aurBlur4"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <style>
+    @keyframes aurWave1{0%{d:path("M0,200 C50,120 120,80 200,100 C280,120 350,60 400,80 C450,100 520,40 600,70 C680,100 750,50 800,90 L800,200 Z")}50%{d:path("M0,200 C50,90 120,110 200,80 C280,50 350,100 400,70 C450,40 520,90 600,60 C680,30 750,80 800,50 L800,200 Z")}100%{d:path("M0,200 C50,120 120,80 200,100 C280,120 350,60 400,80 C450,100 520,40 600,70 C680,100 750,50 800,90 L800,200 Z")}}
+    @keyframes aurWave2{0%{d:path("M0,200 C60,130 140,90 220,110 C300,130 380,70 440,90 C500,110 580,50 660,80 C740,110 780,70 800,100 L800,200 Z")}50%{d:path("M0,200 C60,100 140,120 220,90 C300,60 380,110 440,80 C500,50 580,100 660,70 C740,40 780,90 800,60 L800,200 Z")}100%{d:path("M0,200 C60,130 140,90 220,110 C300,130 380,70 440,90 C500,110 580,50 660,80 C740,110 780,70 800,100 L800,200 Z")}}
+    @keyframes aurWave3{0%{d:path("M0,200 C70,140 150,100 240,120 C330,140 410,80 480,100 C550,120 630,60 710,90 C760,110 790,80 800,110 L800,200 Z")}50%{d:path("M0,200 C70,110 150,130 240,100 C330,70 410,120 480,90 C550,60 630,110 710,80 C760,50 790,100 800,70 L800,200 Z")}100%{d:path("M0,200 C70,140 150,100 240,120 C330,140 410,80 480,100 C550,120 630,60 710,90 C760,110 790,80 800,110 L800,200 Z")}}
+  </style>
+
+  <rect width="800" height="200" fill="#F0EBF8"/>
+
+  <!-- Aurora Layer 4 (back) -->
+  <g filter="url(#aurBlur4)" style="transform:perspective(800px) rotateX(6deg)">
+    <path fill="url(#aurGrad1L)" opacity="0.2">
+      <animate attributeName="d" dur="14s" repeatCount="indefinite"
+        values="M0,200 C90,160 180,120 280,140 C380,160 460,100 540,120 C620,140 700,80 760,110 C790,130 798,100 800,130 L800,200 Z;M0,200 C90,130 180,150 280,120 C380,90 460,140 540,110 C620,80 700,130 760,100 C790,70 798,120 800,90 L800,200 Z;M0,200 C90,160 180,120 280,140 C380,160 460,100 540,120 C620,140 700,80 760,110 C790,130 798,100 800,130 L800,200 Z"/>
+    </path>
+  </g>
+
+  <!-- Aurora Layer 3 -->
+  <g filter="url(#aurBlur3)" style="transform:perspective(800px) rotateX(4deg)">
+    <path fill="url(#aurGrad2L)" opacity="0.25">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite"
+        values="M0,200 C70,140 150,100 240,120 C330,140 410,80 480,100 C550,120 630,60 710,90 C760,110 790,80 800,110 L800,200 Z;M0,200 C70,110 150,130 240,100 C330,70 410,120 480,90 C550,60 630,110 710,80 C760,50 790,100 800,70 L800,200 Z;M0,200 C70,140 150,100 240,120 C330,140 410,80 480,100 C550,120 630,60 710,90 C760,110 790,80 800,110 L800,200 Z"/>
+    </path>
+  </g>
+
+  <!-- Aurora Layer 2 -->
+  <g filter="url(#aurBlur2)" style="transform:perspective(800px) rotateX(2deg)">
+    <path fill="url(#aurGrad3L)" opacity="0.3">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite"
+        values="M0,200 C60,130 140,90 220,110 C300,130 380,70 440,90 C500,110 580,50 660,80 C740,110 780,70 800,100 L800,200 Z;M0,200 C60,100 140,120 220,90 C300,60 380,110 440,80 C500,50 580,100 660,70 C740,40 780,90 800,60 L800,200 Z;M0,200 C60,130 140,90 220,110 C300,130 380,70 440,90 C500,110 580,50 660,80 C740,110 780,70 800,100 L800,200 Z"/>
+    </path>
+  </g>
+
+  <!-- Aurora Layer 1 (front) -->
+  <g filter="url(#aurBlur1)" style="transform:perspective(800px) rotateX(0deg)">
+    <path fill="url(#aurGrad1L)" opacity="0.4">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite"
+        values="M0,200 C50,120 120,80 200,100 C280,120 350,60 400,80 C450,100 520,40 600,70 C680,100 750,50 800,90 L800,200 Z;M0,200 C50,90 120,110 200,80 C280,50 350,100 400,70 C450,40 520,90 600,60 C680,30 750,80 800,50 L800,200 Z;M0,200 C50,120 120,80 200,100 C280,120 350,60 400,80 C450,100 520,40 600,70 C680,100 750,50 800,90 L800,200 Z"/>
+    </path>
+  </g>
+
+  <!-- Light pillars (light mode - subtle) -->
+  <g opacity="0.08">
+    <rect x="200" y="80" width="2" height="120" fill="#8B5CF6" rx="1" filter="url(#aurBlur1)">
+      <animate attributeName="opacity" values="0.05;0.12;0.05" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="400" y="60" width="3" height="140" fill="#3B82F6" rx="1.5" filter="url(#aurBlur1)">
+      <animate attributeName="opacity" values="0.06;0.14;0.06" dur="5s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+    <rect x="600" y="70" width="2" height="130" fill="#10B981" rx="1" filter="url(#aurBlur1)">
+      <animate attributeName="opacity" values="0.04;0.1;0.04" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+    </rect>
+  </g>
+</svg>

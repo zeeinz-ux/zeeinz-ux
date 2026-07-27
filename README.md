@@ -1,24 +1,25 @@
 <div align="center">
 
-<!-- 3D Animated Name -->
-<img src="assets/name-3d.svg" width="800"/>
+<!-- 3D Animated Name (Dual Theme) -->
+<img src="assets/name-dark.svg#gh-dark-mode-only" width="800"/>
+<img src="assets/name-light.svg#gh-light-mode-only" width="800"/>
 
 <br><br>
 
 <!-- Animated Typing SVG -->
 <a href="https://github.com/zeeinz-ux">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=4000&pause=1000&color=00E5CC&center=true&vCenter=true&width=600&lines=%F0%9F%8C%8A+Navigating+the+Code+Ocean...;Building+Reef-Worthy+Systems;Turning+Seaweed+into+Code;Full-Stack+Developer+based+in+JKT" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=4000&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=%F0%9F%8C%8C+Navigating+the+Galaxy...;Building+Stellar+Systems;Turning+Stardust+into+Code;Full-Stack+Developer+based+in+JKT" alt="Typing SVG" />
 </a>
 
 <br><br>
 
-<!-- Avatar with glow -->
-<img src="https://github.com/zeeinz-ux.png" width="180" style="border-radius: 50%; border: 4px solid #00E5CC; box-shadow: 0 0 30px #00E5CC, 0 0 60px #00E5CC;"/>
+<!-- Avatar with galaxy glow -->
+<img src="https://github.com/zeeinz-ux.png" width="180" style="border-radius: 50%; border: 4px solid #A855F7; box-shadow: 0 0 20px #A855F7, 0 0 40px #60A5FA, 0 0 60px #A855F7;"/>
 
 <br><br>
 
 <!-- Profile Views -->
-<img src="https://komarev.com/ghpvc/?username=zeeinz-ux&color=00E5CC&style=for-the-badge&label=PROFILE+VIEWS"/>
+<img src="https://komarev.com/ghpvc/?username=zeeinz-ux&color=A855F7&style=for-the-badge&label=PROFILE+VIEWS"/>
 
 </div>
 
@@ -26,8 +27,9 @@
 
 ---
 
-<!-- Cinematic Particles Divider -->
-<img src="assets/particles.svg" width="800"/>
+<!-- Galaxy Stars Divider (Dual Theme) -->
+<img src="assets/stars-dark.svg#gh-dark-mode-only" width="800"/>
+<img src="assets/stars-light.svg#gh-light-mode-only" width="800"/>
 
 <br>
 
@@ -35,8 +37,9 @@
 
 <div align="center">
 
-<!-- 3D Tech Network Animation -->
-<img src="assets/tech-network.svg" width="800"/>
+<!-- 3D Tech Network (Dual Theme) -->
+<img src="assets/tech-dark.svg#gh-dark-mode-only" width="800"/>
+<img src="assets/tech-light.svg#gh-light-mode-only" width="800"/>
 
 <br><br>
 
@@ -57,8 +60,9 @@
 
 ---
 
-<!-- Particles Divider -->
-<img src="assets/particles.svg" width="800"/>
+<!-- Aurora Divider (Dual Theme) -->
+<img src="assets/aurora-dark.svg#gh-dark-mode-only" width="800"/>
+<img src="assets/aurora-light.svg#gh-light-mode-only" width="800"/>
 
 <br>
 
@@ -66,14 +70,14 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zeeinz-ux&hide_border=true&background=0D1117&ring=00E5CC&fire=FF6B6B&currStreakLabel=00E5CC&sideLabels=E8F4F8"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zeeinz-ux&hide_border=true&background=0B0D17&ring=A855F7&fire=F472B6&currStreakLabel=A855F7&sideLabels=CBD5E1"/>
 
 <br><br>
 
-<img src="https://img.shields.io/github/followers/zeeinz-ux?color=00E5CC&label=Followers&style=for-the-badge"/>
-<img src="https://img.shields.io/github/stars/zeeinz-ux?color=FF6B6B&label=Stars&style=for-the-badge"/>
-<img src="https://img.shields.io/github/forks/zeeinz-ux?color=00E5CC&label=Forks&style=for-the-badge"/>
-<img src="https://img.shields.io/github/repos/zeeinz-ux?color=FF6B6B&label=Repos&style=for-the-badge"/>
+<img src="https://img.shields.io/github/followers/zeeinz-ux?color=A855F7&label=Followers&style=for-the-badge"/>
+<img src="https://img.shields.io/github/stars/zeeinz-ux?color=60A5FA&label=Stars&style=for-the-badge"/>
+<img src="https://img.shields.io/github/forks/zeeinz-ux?color=34D399&label=Forks&style=for-the-badge"/>
+<img src="https://img.shields.io/github/repos/zeeinz-ux?color=F472B6&label=Repos&style=for-the-badge"/>
 
 </div>
 
@@ -81,12 +85,13 @@
 
 ---
 
-<!-- Particles Divider -->
-<img src="assets/particles.svg" width="800"/>
+<!-- Galaxy Stars Divider (Dual Theme) -->
+<img src="assets/stars-dark.svg#gh-dark-mode-only" width="800"/>
+<img src="assets/stars-light.svg#gh-light-mode-only" width="800"/>
 
 <br>
 
-### 🐚 ABOUT 🐚
+### 🌌 ABOUT 🌌
 
 <div align="center">
 
@@ -100,7 +105,7 @@
  |   / _ \ / -_) _` | / _` | '  \ 
  |_|_\___/_\___\__,_|_\__,_|_|_|_|
 
- Deep Sea Developer | Jakarta, ID
+ Galaxy Developer | Jakarta, ID
 ```
 
 </td>
@@ -108,17 +113,17 @@
 
 ```
 name: Zeeinz
-title: Deep Sea Developer
+title: Galaxy Developer
 location: Jakarta, Indonesia
 
 philosophy: >
-  Code should be like the ocean:
-  deep, vast, and always moving forward.
+  Code should be like the cosmos:
+  vast, interconnected, and infinite.
 
 current_focus: >
-  Navigating the digital abyss,
-  building systems that withstand
-  the pressure of production.
+  Navigating the digital galaxy,
+  building systems that orbit
+  with precision and grace.
 
 ask_me_about:
   - Full-Stack Development
@@ -137,8 +142,9 @@ ask_me_about:
 
 ---
 
-<!-- Particles Divider -->
-<img src="assets/particles.svg" width="800"/>
+<!-- Aurora Divider (Dual Theme) -->
+<img src="assets/aurora-dark.svg#gh-dark-mode-only" width="800"/>
+<img src="assets/aurora-light.svg#gh-light-mode-only" width="800"/>
 
 <br>
 
@@ -146,7 +152,7 @@ ask_me_about:
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=zeeinz-ux&bg_color=0D1117&color=00E5CC&line=FF6B6B&point=E8F4F8&area=true&area_color=00E5CC&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=zeeinz-ux&bg_color=0B0D17&color=A855F7&line=F472B6&point=CBD5E1&area=true&area_color=60A5FA&hide_border=true" width="100%"/>
 
 </div>
 
@@ -154,8 +160,9 @@ ask_me_about:
 
 ---
 
-<!-- Particles Divider -->
-<img src="assets/particles.svg" width="800"/>
+<!-- Galaxy Stars Divider (Dual Theme) -->
+<img src="assets/stars-dark.svg#gh-dark-mode-only" width="800"/>
+<img src="assets/stars-light.svg#gh-light-mode-only" width="800"/>
 
 <br>
 
@@ -167,13 +174,13 @@ ask_me_about:
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="https://zeeinz.dev" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-00E5CC?style=for-the-badge&logo=vercel&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Portfolio-A855F7?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 <a href="mailto:zeeinz@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Email-F472B6?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="https://github.com/zeeinz-ux" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-1E1B4B?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </div>
@@ -182,9 +189,10 @@ ask_me_about:
 
 ---
 
-<!-- Deep Sea Abyss Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:040D21,30:FF6B6B,70:00E5CC,100:040D21&height=120&section=footer&animation=fadeIn"/>
+<!-- Galaxy Background Footer (Dual Theme) -->
+<img src="assets/galaxy-dark.svg#gh-dark-mode-only" width="800"/>
+<img src="assets/galaxy-light.svg#gh-light-mode-only" width="800"/>
 
 <br>
 
-> *"In the depth of code, we find our truest form."*
+> *"In the vastness of code, we find our constellation."*

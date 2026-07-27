@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <defs>
+    <linearGradient id="auroraGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#A855F7"/><stop offset="33%" style="stop-color:#60A5FA"/>
+      <stop offset="66%" style="stop-color:#34D399"/><stop offset="100%" style="stop-color:#A855F7"/>
+    </linearGradient>
+    <filter id="nameGlow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="2"/></filter>
+    <radialGradient id="sg1" cx="50%" cy="50%" r="50%"><stop offset="0%" style="stop-color:#A855F7;stop-opacity:.8"/><stop offset="100%" style="stop-color:#A855F7;stop-opacity:0"/></radialGradient>
+    <radialGradient id="sg2" cx="50%" cy="50%" r="50%"><stop offset="0%" style="stop-color:#60A5FA;stop-opacity:.8"/><stop offset="100%" style="stop-color:#60A5FA;stop-opacity:0"/></radialGradient>
+    <radialGradient id="sg3" cx="50%" cy="50%" r="50%"><stop offset="0%" style="stop-color:#34D399;stop-opacity:.8"/><stop offset="100%" style="stop-color:#34D399;stop-opacity:0"/></radialGradient>
+  </defs>
+  <style>
+    @keyframes r3d{0%{transform:perspective(600px) rotateY(-12deg) rotateX(3deg)}33%{transform:perspective(600px) rotateY(8deg) rotateX(-2deg)}66%{transform:perspective(600px) rotateY(-5deg) rotateX(4deg)}100%{transform:perspective(600px) rotateY(-12deg) rotateX(3deg)}}
+    @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    @keyframes np{0%,100%{filter:url(#nameGlow) drop-shadow(0 0 8px #A855F7)}50%{filter:url(#nameGlow) drop-shadow(0 0 20px #A855F7) drop-shadow(0 0 35px #60A5FA)}}
+    @keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+    @keyframes sh{0%{transform:translateX(-50px) translateY(20px);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(850px) translateY(-80px);opacity:0}}
+    @keyframes ob{0%{transform:rotate(0deg) translateX(35px) rotate(0deg)}100%{transform:rotate(360deg) translateX(35px) rotate(-360deg)}}
+    .nt{font-family:'Segoe UI','Arial Black',sans-serif;font-size:76px;font-weight:900;letter-spacing:10px;fill:url(#auroraGrad);animation:r3d 10s ease-in-out infinite,fl 5s ease-in-out infinite,np 4s ease-in-out infinite;transform-origin:center}
+    .st{font-family:'Segoe UI',sans-serif;font-size:15px;fill:#94A3B8;letter-spacing:4px;text-transform:uppercase}
+    .ss{animation:tw 2s ease-in-out infinite}.smd{animation:tw 3s ease-in-out infinite}.slg{animation:tw 4s ease-in-out infinite}
+    .sh1{animation:sh 6s linear infinite}.sh2{animation:sh 8s linear infinite 3s}
+    .orb{animation:ob 8s linear infinite}.orb2{animation:ob 12s linear infinite}
+  </style>
+
+  <!-- BG -->
+  <rect width="800" height="220" fill="#0B0D17"/>
+  <ellipse cx="200" cy="80" rx="180" ry="60" fill="#1E1B4B" opacity=".25" filter="url(#blur2)"/>
+  <ellipse cx="600" cy="100" rx="200" ry="70" fill="#1E1B4B" opacity=".2" filter="url(#blur2)"/>
+
+  <!-- Constellation lines -->
+  <g opacity=".12" stroke="#A855F7" stroke-width=".5"><line x1="80" y1="40" x2="160" y2="60"/><line x1="160" y1="60" x2="250" y2="42"/><line x1="520" y1="35" x2="610" y2="55"/><line x1="610" y1="55" x2="700" y2="38"/></g>
+
+  <!-- Stars far -->
+  <circle class="ss" cx="45" cy="22" r=".7" fill="#F8FAFC" style="animation-delay:.1s"/>
+  <circle class="ss" cx="130" cy="48" r=".5" fill="#A855F7" style="animation-delay:.5s"/>
+  <circle class="ss" cx="215" cy="28" r=".8" fill="#F8FAFC" style="animation-delay:.9s"/>
+  <circle class="ss" cx="295" cy="52" r=".4" fill="#60A5FA" style="animation-delay:1.3s"/>
+  <circle class="ss" cx="375" cy="32" r=".6" fill="#F8FAFC" style="animation-delay:1.7s"/>
+  <circle class="ss" cx="465" cy="42" r=".7" fill="#34D399" style="animation-delay:2.1s"/>
+  <circle class="ss" cx="545" cy="25" r=".5" fill="#F8FAFC" style="animation-delay:2.5s"/>
+  <circle class="ss" cx="625" cy="48" r=".8" fill="#A855F7" style="animation-delay:2.9s"/>
+  <circle class="ss" cx="705" cy="35" r=".4" fill="#60A5FA" style="animation-delay:3.3s"/>
+  <circle class="ss" cx="775" cy="45" r=".6" fill="#F8FAFC" style="animation-delay:.3s"/>
+
+  <!-- Stars mid -->
+  <circle class="smd" cx="90" cy="68" r="1.3" fill="#A855F7" style="animation-delay:.2s"/>
+  <circle class="smd" cx="260" cy="85" r="1.1" fill="#60A5FA" style="animation-delay:1s"/>
+  <circle class="smd" cx="420" cy="58" r="1.5" fill="#F8FAFC" style="animation-delay:1.8s"/>
+  <circle class="smd" cx="580" cy="72" r="1.2" fill="#34D399" style="animation-delay:2.6s"/>
+  <circle class="smd" cx="720" cy="62" r="1" fill="#A855F7" style="animation-delay:.6s"/>
+
+  <!-- Stars near -->
+  <g class="slg" style="animation-delay:.4s"><circle cx="140" cy="38" r="4" fill="url(#sg1)"/></g>
+  <g class="slg" style="animation-delay:1.6s"><circle cx="400" cy="30" r="5" fill="url(#sg2)"/></g>
+  <g class="slg" style="animation-delay:2.8s"><circle cx="660" cy="42" r="4.5" fill="url(#sg3)"/></g>
+
+  <!-- Shooting stars -->
+  <g class="sh1"><circle cx="0" cy="95" r="2" fill="#F8FAFC"/><line x1="0" y1="95" x2="-40" y2="108" stroke="#F8FAFC" stroke-width=".8" opacity=".4"/><line x1="0" y1="95" x2="-25" y2="102" stroke="#A855F7" stroke-width="1.5" opacity=".7"/></g>
+  <g class="sh2"><circle cx="0" cy="70" r="1.5" fill="#60A5FA"/><line x1="0" y1="70" x2="-35" y2="80" stroke="#60A5FA" stroke-width=".6" opacity=".3"/><line x1="0" y1="70" x2="-20" y2="75" stroke="#60A5FA" stroke-width="1.2" opacity=".6"/></g>
+
+  <!-- Orbiting dots -->
+  <circle class="orb" cx="400" cy="90" r="2" fill="#A855F7" opacity=".5"/>
+  <circle class="orb2" cx="400" cy="90" r="1.5" fill="#60A5FA" opacity=".4"/>
+
+  <!-- Name -->
+  <text class="nt" x="400" y="100" text-anchor="middle">ZEEINZ</text>
+  <text class="st" x="400" y="135" text-anchor="middle">Full-Stack Developer  •  Jakarta, Indonesia</text>
+
+  <!-- Aurora bottom -->
+  <path fill="#A855F7" opacity=".12">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M0,190 C100,170 200,200 400,185 C600,170 700,200 800,190 L800,220 L0,220 Z;M0,185 C100,200 200,170 400,190 C600,200 700,170 800,185 L800,220 L0,220 Z;M0,190 C100,170 200,200 400,185 C600,170 700,200 800,190 L800,220 L0,220 Z"/>
+  </path>
+  <path fill="#60A5FA" opacity=".08">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,195 C120,175 220,205 400,190 C580,175 680,205 800,195 L800,220 L0,220 Z;M0,190 C120,205 220,175 400,195 C580,205 680,175 800,190 L800,220 L0,220 Z;M0,195 C120,175 220,205 400,190 C580,175 680,205 800,195 L800,220 L0,220 Z"/>
+  </path>
+</svg>
